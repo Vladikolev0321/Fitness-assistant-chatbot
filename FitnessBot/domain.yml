@@ -11,6 +11,13 @@ intents:
   - exercising_benefit
   - get_info
   - get_average_speed
+  - steps_done
+  - calories_burned
+  - logged_weight
+  - distance_activity
+  - bot_purpose
+  - calories_needed
+  - change_in_performance
 
 responses:
   utter_greet:
