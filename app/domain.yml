@@ -8,16 +8,6 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - exercising_benefit
-  - get_info
-  - get_average_speed
-  - steps_done
-  - calories_burned
-  - logged_weight
-  - distance_activity
-  - bot_purpose
-  - calories_needed
-  - change_in_performance
 
 responses:
   utter_greet:
@@ -38,8 +28,6 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
-
-
 
 session_config:
   session_expiration_time: 60
