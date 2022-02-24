@@ -19,7 +19,6 @@ nlu:
 
 - intent: goodbye
   examples: |
-    - good afternoon
     - cu
     - good by
     - cee you later
@@ -50,43 +49,66 @@ nlu:
     - no way
     - not really
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: exercising_benefit
+  examples: |
+    - What are the benefits of being active?
+    - why should i excercise
+    - what do you reccommend?
+
+- intent: get_average_speed
+  examples: |
+    - What is my average speed on [walk](type_activity).
+    - average speed on [hiking](type_activity)
+    - What is my average speed doing a [run](type_activity).
+    - What is my average speed doing a [hike](type_activity).
+    - What is my average speed doing a [walk](type_activity).
+
+- intent: steps_done
+  examples: |
+    - steps done [today](range)
+    - how many steps have i done [today](range)
+    - what is the count of my steps [today](range)
+
+- intent: calories_burned
+  examples: |
+   - how many calories i have burned [today](range)
+   - calories burned [today](range)
+   - what is the amount of calories burned [today](range)
+
+- intent: logged_weight
+  examples: |
+   - what is my current weight [today](range)
+   - get logged weight [today](range)
+   - how much is my weight? [today](range)
+
+- intent: distance_activity
+  examples: |
+   - how much distance i have made [walking](type_activity).
+   - distance made [hiking](type_activity).
+   - distance made [cycling](type_activity).
+   - distance made [running](type_activity).
+
+- intent: bot_purpose
+  examples: |
+   - What can you do?
+   - What is your purpose?
+   - How can you help me?
+
+- intent: calories_needed
+  examples: |
+   - How many calories should i consume to [gain](verb) weight?
+   - How many calories should i consume to [loose](verb) weight?
+   - How much should be my calories intake to [gain](verb) weight?
+   - How much should be my calories intake to [loose](verb) weight?
+
+- intent: change_in_performance
+  examples: |
+   - How has my performance changed on [walking](type_activity)?
+   - How has my performance changed on [running](type_activity)?
