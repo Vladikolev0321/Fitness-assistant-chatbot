@@ -18,6 +18,7 @@ intents:
   - bot_purpose
   - calories_needed
   - change_in_performance
+  - current_goals
 
 # responses:
 #   utter_greet:

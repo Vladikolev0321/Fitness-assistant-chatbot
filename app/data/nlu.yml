@@ -112,3 +112,8 @@ nlu:
   examples: |
    - How has my performance changed on [walking](type_activity)?
    - How has my performance changed on [running](type_activity)?
+
+- intent: current_goals
+  examples: |
+   - What are my current goals?
+   - current goals for the day?
